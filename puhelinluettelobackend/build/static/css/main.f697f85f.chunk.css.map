@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,OACE,SAGF,CACA,gBAHE,cAAe,CACf,kBAMF,CAJA,SACE,WAGF","file":"main.f697f85f.chunk.css","sourcesContent":[".error{\n  color: red;\n  font-size: 20px;\n  margin-bottom: 10px;\n}\n.success{\n  color: green;\n  font-size: 20px;\n  margin-bottom: 10px;\n}\n"]}
