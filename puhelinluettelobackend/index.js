@@ -26,7 +26,9 @@ app.get('/api/persons/:id', (request, response)=>{
     })
 })
 app.get('/api/persons', (request, response)=>{
-        response.json(persons.toJSON())
+        Person.find({}).then(persons =>{
+            response.json(persons.map(person => person.toJSON()))
+        })
     
 })
 
